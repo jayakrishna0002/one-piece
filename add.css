@@ -1,0 +1,58 @@
+*{
+    background-color: black;
+    margin: 0%;
+}
+.a{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
+.o{
+    border: 2px solid white;
+}
+.a1,.a2{
+    flex-grow: 1;
+}
+.a2{
+    display: flex;
+}
+.a21,.a22{
+    flex-grow: 1;
+    border-top: 0;
+}
+.a22{
+    border-left: 0;
+}
+p{
+    background: 0%;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    margin: -10px;
+}
+.a1 {
+    font-size: 50px;
+    color: red;
+    font-family: "fac"; /* fac is a any name*/
+    text-align: center; /*To center text*/
+    background-repeat: no-repeat;
+    background-size: cover; /*the image covers the entire div */
+    background-position: center; /* Centers the image within the div */
+}
+.a21,.a22{
+    font-size: 40px;
+    display: flex;
+    font-family: fac;
+    color: rgb(96, 4, 4);
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+@font-face {
+    font-family: fac;
+    src: url("./OnePiece-zAqL.ttf");
+}
